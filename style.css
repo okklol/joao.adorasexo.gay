@@ -1,0 +1,25 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --purple-dark: hsl(289, 100%, 10%);
+}
+
+html {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.medium-image  {
+    height: 20rem;
+}
